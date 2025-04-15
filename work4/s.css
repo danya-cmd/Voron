@@ -226,3 +226,42 @@ border-radius: 10px;
  margin-top: 3%;
  margin-bottom: 1%;
 }
+footer {
+    display: flex;
+    align-items: flex-end; /* Центрируем содержимое по горизонтали */
+    justify-content: space-around; /* Элементы расположены у дна футера */
+    width: 100%;
+    height: 170px;
+    background-color: #000000;
+    color: #FFFF;
+    padding: 5px;
+}
+
+.divfooter4 {
+    display: flex;
+    flex-direction: column; /* Элементы внутри вертикально */
+    justify-content: start; /* Центрируем по вертикали */
+    align-items: flex-start; /* Выравниваем по левому краю */
+}
+
+.divfooter1, .divfooter2 {
+    display: flex;
+    align-items: center;
+    margin: 5px 0; /* Отступы между элементами */
+}
+
+.divfooter3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center; /* Центрируем текст */
+    width: 100%;
+    max-width: 305px; /* Занимаем всю ширину */
+    height: auto;
+}
+.divfooter5{
+    width: 20%;
+    height: 2px;
+    
+}
